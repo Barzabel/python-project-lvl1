@@ -11,7 +11,7 @@ def check_even(name):
 
         if rand % 2 == 0 and answer == 'yes':
             print('correct!')
-        elif rand % 2 == 0 and answer == 'no':
+        elif rand % 2 == 0 and answer != 'yes':
             print(f"'{answer}' is wrong answer ;(. Correct answer was 'yes'.")
             print(f"Let's try again, {name}!")
             return
@@ -19,7 +19,7 @@ def check_even(name):
         if rand % 2 == 1 and answer == 'no':
             print('correct!')
 
-        elif rand % 2 == 1 and answer == 'yes':
+        elif rand % 2 == 1 and answer != 'no':
             print(f"'{answer}' is wrong answer ;(. Correct answer was 'no'.")
             print(f"Let's try again, {name}!")
             return
