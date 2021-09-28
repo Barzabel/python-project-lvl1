@@ -17,4 +17,4 @@ package-upgrade:
 	python3.9 -m pip install --upgrade --user dist/hexlet_code-0.1.0-py3-none-any.whl;
 
 make lint:
-	poetry run flake8 brain_games
+	poetry run flake8 brain_games;
