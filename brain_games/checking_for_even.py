@@ -8,7 +8,7 @@ def check_even(name):
         rand = random.randint(0, 100)
         print(f'Question: {rand}')
         answer = prompt.string('Your answer:')
-        
+
         if rand % 2 == 0 and answer == 'yes':
             print('correct!')
         elif rand % 2 == 0 and answer == 'no':
