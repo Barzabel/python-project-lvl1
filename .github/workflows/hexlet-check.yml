@@ -25,4 +25,4 @@ jobs:
         uses: hexlet/project-action@release
         with:
           hexlet-id: ${{ secrets.HEXLET_ID }}
-      - run: run poetry flake8 brain_games
+      - run: poetry flake8 brain_games
