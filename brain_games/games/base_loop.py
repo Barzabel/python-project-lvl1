@@ -11,9 +11,10 @@ def loop(round, game):
         print(question)
         answer_user = prompt.string('Your answer:')
         if answer_user == ansver_true:
-        	print('correct')
+            print('correct')
         else:
-            print(f"'{answer_user}' is wrong answer ;(. Correct answer was '{ansver_true}'.")
+            print(f"'{answer_user}' is wrong answer ;(.\
+             Correct answer was '{ansver_true}'.")
             print(f"Let's try again, {name}!")
             return
     print(f'Congratulations, {name}!')
