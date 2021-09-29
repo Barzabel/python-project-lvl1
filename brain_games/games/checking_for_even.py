@@ -6,7 +6,7 @@ def check_even():
     rand = random.randint(0, 100)
     qustion = f'Question: {rand}'
     if rand % 2 == 0:
-    	answer = "yes"
+        answer = "yes"
     else:
-    	answer = "no"
+        answer = "no"
     return qustion, answer
