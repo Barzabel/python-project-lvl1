@@ -7,3 +7,7 @@
 
 
 [![asciicast](https://asciinema.org/a/438596.png)](https://asciinema.org/a/438596)
+
+
+игра калькулятор
+[![asciicast](https://asciinema.org/a/439001.png)](https://asciinema.org/a/439001)
