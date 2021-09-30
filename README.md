@@ -11,3 +11,6 @@
 
 игра калькулятор
 [![asciicast](https://asciinema.org/a/439001.png)](https://asciinema.org/a/439001)
+
+Игра найди наибольший общий делитель
+[![asciicast](https://asciinema.org/a/439011.png)](https://asciinema.org/a/439011)
