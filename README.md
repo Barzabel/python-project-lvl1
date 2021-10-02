@@ -10,11 +10,19 @@
 
 
 игра калькулятор
+
 [![asciicast](https://asciinema.org/a/439001.png)](https://asciinema.org/a/439001)
 
 Игра найди наибольший общий делитель
+
 [![asciicast](https://asciinema.org/a/439011.png)](https://asciinema.org/a/439011)
+
 
 Игра простое число
 
 [![asciicast](https://asciinema.org/a/439492.png)](https://asciinema.org/a/439492)
+
+Игра заполни пропуск в последовательности
+
+[![asciicast](https://asciinema.org/a/439094.png)](https://asciinema.org/a/439094)
+
