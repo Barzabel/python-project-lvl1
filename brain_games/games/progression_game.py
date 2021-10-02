@@ -10,5 +10,5 @@ def progression_game():
     index = random.randint(0, size - 1)
     answer = progression[index]
     progression[index] = ".."
-    qustion = " ".join(map(str, progression))
+    qustion = "Question: " + " ".join(map(str, progression))
     return qustion, str(answer)
