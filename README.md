@@ -14,3 +14,7 @@
 
 Игра найди наибольший общий делитель
 [![asciicast](https://asciinema.org/a/439011.png)](https://asciinema.org/a/439011)
+
+Игра простое число
+
+[![asciicast](https://asciinema.org/a/439492.png)](https://asciinema.org/a/439492)

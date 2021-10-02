@@ -1,13 +1,6 @@
 import random
 
-
-def get_nod(a, b):
-    if b > a:
-        a, b = b, a
-    if a % b == 0:
-        return b
-    else:
-        return get_nod(a % b, b)
+from ..math_for_game.math import get_nod
 
 
 def game_nod():
