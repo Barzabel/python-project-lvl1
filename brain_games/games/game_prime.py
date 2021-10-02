@@ -1,5 +1,4 @@
 import random
-
 from ..math_for_game.math import ferma
 
 
@@ -9,8 +8,8 @@ def game_prime():
     question = f"Question: {rand}"
     is_prime = ferma(rand)
     if is_prime:
-    	answer = "yes"
+        answer = "yes"
     else:
-    	answer = "no"
+        answer = "no"
 
     return question, answer
