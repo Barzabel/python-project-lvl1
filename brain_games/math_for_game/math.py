@@ -11,7 +11,7 @@ def get_nod(a, b) -> int:
         return get_nod(a % b, b)
 
 
-def is_prime_number(x) -> Bool:
+def is_prime_number(x) -> bool:
     '''метод ферма'''
     if x in [1, 2, 3, 5, 7]:
         return True
