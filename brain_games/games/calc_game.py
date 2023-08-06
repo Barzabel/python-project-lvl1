@@ -1,7 +1,7 @@
 import random
 
 
-def calc():
+def calc() -> None:
     """What is the result of the expression?"""
     operat = {
         "+": lambda x, y: x + y,

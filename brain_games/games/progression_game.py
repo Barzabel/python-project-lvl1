@@ -1,7 +1,7 @@
 import random
 
 
-def progression_game():
+def progression_game() -> None:
     """What number is missing in the progression?"""
     size = random.randint(6, 11)
     step = random.randint(2, 13)

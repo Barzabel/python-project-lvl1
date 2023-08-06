@@ -1,7 +1,8 @@
 import random
 
 
-def get_nod(a, b):
+def get_nod(a, b) -> int:
+    '''Наименьший общий елитель'''
     if b > a:
         a, b = b, a
     if a % b == 0:
@@ -10,7 +11,8 @@ def get_nod(a, b):
         return get_nod(a % b, b)
 
 
-def ferma(x):
+def is_prime_number(x) -> Bool:
+    '''метод ферма'''
     if x in [1, 2, 3, 5, 7]:
         return True
     elif x == 0:

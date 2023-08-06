@@ -3,7 +3,7 @@ import random
 from ..math_for_game.math import get_nod
 
 
-def game_nod():
+def game_nod() -> None:
     """Find the greatest common divisor of given numbers."""
     rand1 = random.randint(0, 100)
     rand2 = random.randint(0, 100)

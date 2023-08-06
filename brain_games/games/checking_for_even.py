@@ -1,7 +1,7 @@
 import random
 
 
-def check_even():
+def check_even() -> None:
     """Answer "yes" if the number is even, otherwise answer "no"."""
     rand = random.randint(0, 100)
     qustion = f'Question: {rand}'
