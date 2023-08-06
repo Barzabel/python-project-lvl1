@@ -13,7 +13,7 @@ def get_nod(a, b) -> int:
 
 def is_prime_number(x) -> bool:
     '''метод ферма'''
-    if x in [ 2, 3, 5, 7]:
+    if x in [2, 3, 5, 7]:
         return True
     elif x == 0 or x == 1:
         return False
