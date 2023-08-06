@@ -16,4 +16,5 @@ def loop(round, game):
             print(f"'{answer_user}' is wrong answer ;(.\
              Correct answer was '{ansver_true}'.")
             print(f"Let's try again, {name}!")
+            return None
     print(f'Congratulations, {name}!')

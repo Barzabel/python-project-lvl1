@@ -13,9 +13,9 @@ def get_nod(a, b) -> int:
 
 def is_prime_number(x) -> bool:
     '''метод ферма'''
-    if x in [1, 2, 3, 5, 7]:
+    if x in [ 2, 3, 5, 7]:
         return True
-    elif x == 0:
+    elif x == 0 or x == 1:
         return False
     for _ in range(100):
         a = random.randint(2, x - 1)
