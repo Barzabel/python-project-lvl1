@@ -15,6 +15,17 @@ def is_prime_number(x) -> bool:
             return False
     return True
 
+
+def get_nod(a, b) -> int:
+    '''Наименьший общий елитель'''
+    if b > a:
+        a, b = b, a
+    if a % b == 0:
+        return b
+    else:
+        return get_nod(a % b, b)
+
+
 def game_prime() -> None:
     """Answer "yes" if given number is prime. Otherwise answer "no"."""
     rand = random.randint(0, 200)
