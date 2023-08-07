@@ -15,8 +15,8 @@ def cycle_of_game(game, description):
         print(question)
         answer_user = prompt.string('Your answer:')
         if answer_user != ansver_true:
-            print(f"'{answer_user}' is wrong answer ;(."\
-            f"Correct answer was '{ansver_true}'.")
+            print("'{}' is wrong answer ;(.Correct answer was "
+                  "'{}'.".format(answer_user, ansver_true))
             print(f"Let's try again, {name}!")
             break
         print('correct')
