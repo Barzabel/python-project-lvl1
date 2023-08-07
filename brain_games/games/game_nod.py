@@ -1,6 +1,14 @@
 import random
 
-from ..math_for_game.math import get_nod
+
+def get_nod(a, b) -> int:
+    '''Наименьший общий елитель'''
+    if b > a:
+        a, b = b, a
+    if a % b == 0:
+        return b
+    else:
+        return get_nod(a % b, b)
 
 
 def game_nod() -> None:
