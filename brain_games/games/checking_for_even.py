@@ -1,8 +1,10 @@
 import random
 
 
-def check_even() -> None:
-    """Answer "yes" if the number is even, otherwise answer "no"."""
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+
+def game_check_even() -> None:
     rand = random.randint(0, 100)
     qustion = f'Question: {rand}'
     if rand % 2 == 0:

@@ -1,12 +1,15 @@
 import prompt
 
 
-def loop(round, game):
+NUMBER_OF_ROUNDS = 3
+
+
+def cycle_of_game(game, description):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print("Hello, {}!".format(name))
-    print(game.__doc__)
-    for _ in range(round):
+    print(description)
+    for _ in range(NUMBER_OF_ROUNDS):
         question, ansver_true = game()
         print(question)
         answer_user = prompt.string('Your answer:')

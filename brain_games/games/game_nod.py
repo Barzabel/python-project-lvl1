@@ -1,6 +1,9 @@
 import random
 
 
+DESCRIPTION = "Find the greatest common divisor of given numbers."
+
+
 def get_nod(a, b) -> int:
     '''Наименьший общий елитель'''
     if b > a:
@@ -12,7 +15,6 @@ def get_nod(a, b) -> int:
 
 
 def game_nod() -> None:
-    """Find the greatest common divisor of given numbers."""
     rand1 = random.randint(1, 100)
     rand2 = random.randint(1, 100)
     question = f"Question: {rand1} {rand2}"

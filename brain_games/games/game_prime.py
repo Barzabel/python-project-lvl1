@@ -1,6 +1,9 @@
 import random
 
 
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+
 def is_prime_number(x) -> bool:
     '''метод ферма'''
     if x in [2, 3, 5, 7]:
@@ -27,7 +30,6 @@ def get_nod(a, b) -> int:
 
 
 def game_prime() -> None:
-    """Answer "yes" if given number is prime. Otherwise answer "no"."""
     rand = random.randint(0, 200)
     question = f"Question: {rand}"
     is_prime = is_prime_number(rand)

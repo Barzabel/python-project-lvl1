@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-from brain_games.games.game_nod import game_nod
-from brain_games.games.base_loop import loop
+from brain_games.games.game_nod import game_nod, DESCRIPTION
+from brain_games.games.base_loop import cycle_of_game
 
 
 def main():
-    loop(3, game_nod)
+    cycle_of_game(game_nod, DESCRIPTION)
 
 
 if __name__ == '__main__':

@@ -1,8 +1,10 @@
 import random
 
 
-def calc() -> None:
-    """What is the result of the expression?"""
+DESCRIPTION = "What is the result of the expression?"
+
+
+def game_calc() -> None:
     operat = {
         "+": lambda x, y: x + y,
         "*": lambda x, y: x * y,
