@@ -12,7 +12,7 @@ def cycle_of_game(game, description):
     print(description)
     for _ in range(NUMBER_OF_ROUNDS):
         question, ansver_true = game()
-        print(question)
+        print("Question: {}".format(question))
         answer_user = prompt.string('Your answer:')
         if answer_user != ansver_true:
             print("'{}' is wrong answer ;(.Correct answer was "

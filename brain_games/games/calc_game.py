@@ -13,6 +13,6 @@ def game_calc() -> None:
     rand1 = random.randint(0, 100)
     rand2 = random.randint(0, 100)
     operator = random.choice(["+", "*", "-"])
-    question = f"Question: {rand1} {operator} {rand2}"
+    question = f"{rand1} {operator} {rand2}"
     ansver = operat[operator](rand1, rand2)
     return question, str(ansver)

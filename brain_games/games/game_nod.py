@@ -17,6 +17,6 @@ def get_nod(a, b) -> int:
 def game_nod() -> None:
     rand1 = random.randint(1, 100)
     rand2 = random.randint(1, 100)
-    question = f"Question: {rand1} {rand2}"
+    question = f"{rand1} {rand2}"
     ansver = get_nod(rand1, rand2)
     return question, str(ansver)

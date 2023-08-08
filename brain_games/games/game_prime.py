@@ -4,17 +4,12 @@ import random
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def is_prime_number(x) -> bool:
+def is_prime_number(number) -> bool:
     '''метод ферма'''
-    if x in [2, 3, 5, 7]:
-        return True
-    elif x == 0 or x == 1:
+    if number % 2 == 0:
         return False
-    for _ in range(100):
-        a = random.randint(2, x - 1)
-        if get_nod(x, a) != 1:
-            return False
-        if pow(a, x - 1, x) != 1:
+    for x in range(3, int(number ** 0.5) + 1, 2):
+        if number % x == 0:
             return False
     return True
 
@@ -31,7 +26,7 @@ def get_nod(a, b) -> int:
 
 def game_prime() -> None:
     rand = random.randint(0, 200)
-    question = f"Question: {rand}"
+    question = f"{rand}"
     is_prime = is_prime_number(rand)
     if is_prime:
         answer = "yes"
