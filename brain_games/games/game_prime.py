@@ -24,7 +24,7 @@ def get_nod(a, b) -> int:
         return get_nod(a % b, b)
 
 
-def game_prime() -> None:
+def get_one_round() -> None:
     rand = random.randint(0, 200)
     question = f"{rand}"
     is_prime = is_prime_number(rand)

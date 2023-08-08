@@ -14,7 +14,7 @@ def get_nod(a, b) -> int:
         return get_nod(a % b, b)
 
 
-def game_nod() -> None:
+def get_one_round() -> None:
     rand1 = random.randint(1, 100)
     rand2 = random.randint(1, 100)
     question = f"{rand1} {rand2}"

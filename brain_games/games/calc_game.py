@@ -4,7 +4,7 @@ import random
 DESCRIPTION = "What is the result of the expression?"
 
 
-def game_calc() -> None:
+def get_one_round() -> None:
     operat = {
         "+": lambda x, y: x + y,
         "*": lambda x, y: x * y,
