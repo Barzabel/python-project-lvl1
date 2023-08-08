@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 from brain_games.games import progression_game
-from brain_games.games.base_loop import cycle_of_game
+from brain_games.base_loop import cycle_of_game
 
 
 def main():

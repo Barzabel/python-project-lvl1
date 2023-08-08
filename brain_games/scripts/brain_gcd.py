@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 from brain_games.games import game_nod
-from brain_games.games.base_loop import cycle_of_game
+from brain_games.base_loop import cycle_of_game
 
 
 def main():

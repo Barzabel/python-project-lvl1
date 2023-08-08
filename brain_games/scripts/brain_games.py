@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-from brain_games.games.cli import welcome_user
+from brain_games.cli import welcome_user
 
 
 def main():
