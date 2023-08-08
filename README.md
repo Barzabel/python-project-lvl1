@@ -1,3 +1,19 @@
+Brain Games
+---------------------------------
+
+Command line math puzzle games
+
+
+
+How to install
+---------------------------------
+Just run the command
+
+`pip install --user git+https://github.com/Barzabel/python-project-lvl1.git`
+
+
+
+
 ### Hexlet tests and linter status:
 ![Actions Status](https://github.com/Barzabel/python-project-lvl1/workflows/hexlet-check/badge.svg)
 
