@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
-from brain_games.games import calc_game
+from brain_games.games import calc
 from brain_games.base_loop import start_of_game
 
 
 def main():
-    start_of_game(calc_game)
+    start_of_game(calc)
 
 
 if __name__ == '__main__':
