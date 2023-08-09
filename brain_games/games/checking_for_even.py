@@ -4,7 +4,7 @@ import random
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def get_one_round() -> None:
+def generate_data_for_round() -> None:
     rand = random.randint(0, 100)
     question = f'{rand}'
     if rand % 2 == 0:

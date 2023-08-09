@@ -4,7 +4,7 @@ import random
 DESCRIPTION = "What number is missing in the progression?"
 
 
-def get_one_round() -> None:
+def generate_data_for_round() -> None:
     size = random.randint(6, 11)
     step = random.randint(2, 13)
     start = random.randint(1, 100)

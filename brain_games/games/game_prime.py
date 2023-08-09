@@ -5,8 +5,7 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime_number(number) -> bool:
-    '''метод ферма'''
-    if number % 2 == 0:
+    if number % 2 == 0 and number < 2:
         return False
     for x in range(3, int(number ** 0.5) + 1, 2):
         if number % x == 0:
@@ -24,7 +23,7 @@ def get_nod(a, b) -> int:
         return get_nod(a % b, b)
 
 
-def get_one_round() -> None:
+def generate_data_for_round() -> None:
     rand = random.randint(0, 200)
     question = f"{rand}"
     is_prime = is_prime_number(rand)
