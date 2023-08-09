@@ -5,7 +5,7 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime_number(number) -> bool:
-    if number % 2 == 0 and number < 2:
+    if number % 2 == 0 or number < 2:
         return False
     for x in range(3, int(number ** 0.5) + 1, 2):
         if number % x == 0:
