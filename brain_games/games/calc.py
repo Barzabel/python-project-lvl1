@@ -10,9 +10,9 @@ def generate_data_for_round():
         "*": lambda x, y: x * y,
         "-": lambda x, y: x - y,
     }
-    rand1 = random.randint(0, 100)
-    rand2 = random.randint(0, 100)
+    number1 = random.randint(0, 100)
+    number2 = random.randint(0, 100)
     operator = random.choice(["+", "*", "-"])
-    question = f"{rand1} {operator} {rand2}"
-    ansver = operat[operator](rand1, rand2)
-    return question, str(ansver)
+    question = f"{number1} {operator} {number2}"
+    right_answer = operat[operator](number1, number2)
+    return question, str(right_answer)

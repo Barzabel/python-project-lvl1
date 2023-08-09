@@ -10,7 +10,7 @@ def generate_data_for_round() -> None:
     start = random.randint(1, 100)
     progression = [start + (x * step) for x in range(0, size)]
     index = random.randint(0, size - 1)
-    answer = progression[index]
+    right_answer = progression[index]
     progression[index] = ".."
     qustion = " ".join(map(str, progression))
-    return qustion, str(answer)
+    return qustion, str(right_answer)

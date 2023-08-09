@@ -8,7 +8,7 @@ def generate_data_for_round() -> None:
     rand = random.randint(0, 100)
     question = f'{rand}'
     if rand % 2 == 0:
-        answer = "yes"
+        right_answer = "yes"
     else:
-        answer = "no"
-    return question, answer
+        right_answer = "no"
+    return question, right_answer

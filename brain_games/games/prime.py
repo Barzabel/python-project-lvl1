@@ -13,16 +13,6 @@ def is_prime_number(number) -> bool:
     return True
 
 
-def get_nod(a, b) -> int:
-    '''Наименьший общий елитель'''
-    if b > a:
-        a, b = b, a
-    if a % b == 0:
-        return b
-    else:
-        return get_nod(a % b, b)
-
-
 def generate_data_for_round() -> None:
     rand = random.randint(0, 200)
     question = f"{rand}"
