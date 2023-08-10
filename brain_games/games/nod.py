@@ -15,8 +15,8 @@ def get_nod(a, b) -> int:
 
 
 def generate_data_for_round() -> None:
-    rand1 = random.randint(1, 100)
-    rand2 = random.randint(1, 100)
-    question = f"{rand1} {rand2}"
-    ansver = get_nod(rand1, rand2)
+    random_number1 = random.randint(1, 100)
+    random_number2 = random.randint(1, 100)
+    question = f"{random_number1} {random_number2}"
+    ansver = get_nod(random_number1, random_number2)
     return question, str(ansver)
