@@ -12,5 +12,5 @@ def generate_data_for_round() -> None:
     index = random.randint(0, size - 1)
     right_answer = progression[index]
     progression[index] = ".."
-    qustion = " ".join(map(str, progression))
-    return qustion, str(right_answer)
+    question = " ".join(map(str, progression))
+    return question, str(right_answer)
