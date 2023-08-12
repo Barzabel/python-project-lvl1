@@ -14,5 +14,5 @@ def generate_data_for_round():
     random_number2 = random.randint(0, 100)
     random_operator = random.choice(["+", "*", "-"])
     question = f"{random_number1} {random_operator} {random_number2}"
-    right_answer = operat[random_operator](random_number1, random_number2)
+    right_answer = operator[random_operator](random_number1, random_number2)
     return question, str(right_answer)
